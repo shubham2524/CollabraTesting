@@ -1,0 +1,8 @@
+git init
+git add <filename>
+git commit –m “message”
+git status
+Staging area
+For adding multiple changes – git add . OR git add *.*
+git remote add origin <URL> (One-time command ONLY)
+git push –u origin master
