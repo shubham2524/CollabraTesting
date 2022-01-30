@@ -11,7 +11,7 @@ import org.openqa.selenium.WebElement;
 import org.openqa.selenium.chrome.ChromeDriver;
 import org.openqa.selenium.interactions.Actions;
 
-public class ToKeyUpandKeyDown {
+public class ToKeyUpandKey {
 
 	public static void main(String[] args) throws InterruptedException {
 		// TODO Auto-generated method stub
@@ -32,21 +32,18 @@ public class ToKeyUpandKeyDown {
 			
 			
 		}
-		Set<String> allwindowid = driver.getWindowHandles();
-		
 		String expectedewindowtitile = "Home and Living - Buy Interior Decoration Products and Accessories Online in India";
+		Set<String> allwindowid = driver.getWindowHandles();
 		for(String windowid : allwindowid) {
 			driver.switchTo().window(windowid);
-			
 			String actualwindowtitle = driver.getTitle();
-			Thread.sleep(2000);
-			
-			if(expectedewindowtitile.equals(actualwindowtitle))
-				// String String fashionid = driver.getWindowHandle();
-				
+			if(expectedewindowtitile.equals(actualwindowtitle)) {
 				driver.close();
-			break;
+			}
+			
 		}
+		
+	
 			
 		
 
