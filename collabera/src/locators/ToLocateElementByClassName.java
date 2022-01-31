@@ -25,6 +25,7 @@ public class ToLocateElementByClassName {
 		WebElement searchbutton1= driver.findElement(By.tagName("a"));
 		searchbutton1.click();
 		
+		
 		//searchbutton1.click();
 		
 	}

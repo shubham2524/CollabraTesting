@@ -1,27 +1,103 @@
 <?xml version="1.0" encoding="UTF-8"?>
-<testng-results ignored="2" total="4" passed="2" failed="0" skipped="0">
+<testng-results ignored="0" total="1" passed="1" failed="0" skipped="0">
   <reporter-output>
+    <line>
+      <![CDATA[from before suit]]>
+    </line>
+    <line>
+      <![CDATA[from  before test]]>
+    </line>
+    <line>
+      <![CDATA[from before classe]]>
+    </line>
+    <line>
+      <![CDATA[from before method]]>
+    </line>
+    <line>
+      <![CDATA[for modify test case]]>
+    </line>
+    <line>
+      <![CDATA[from after method]]>
+    </line>
+    <line>
+      <![CDATA[from ater class]]>
+    </line>
+    <line>
+      <![CDATA[from ater test]]>
+    </line>
+    <line>
+      <![CDATA[from ater suit]]>
+    </line>
   </reporter-output>
-  <suite started-at="2022-01-24T15:40:18 IST" name="Suite" finished-at="2022-01-24T15:40:34 IST" duration-ms="16658">
+  <suite started-at="2022-01-28T11:14:04 IST" name="Default suite" finished-at="2022-01-28T11:14:04 IST" duration-ms="73">
     <groups>
-      <group name="smoke">
-        <method signature="TC_Loan_003.repayLoan()[pri:0, instance:testng_basics.TC_Loan_003@29e495ff]" name="repayLoan" class="testng_basics.TC_Loan_003"/>
-        <method signature="TC_Loan_004.deleteLoan()[pri:0, instance:testng_basics.TC_Loan_004@41e1e210]" name="deleteLoan" class="testng_basics.TC_Loan_004"/>
-      </group> <!-- smoke -->
     </groups>
-    <test started-at="2022-01-24T15:40:18 IST" name="Test" finished-at="2022-01-24T15:40:34 IST" duration-ms="16658">
-      <class name="testng_basics.TC_Loan_003">
-        <test-method signature="repayLoan()[pri:0, instance:testng_basics.TC_Loan_003@29e495ff]" started-at="2022-01-24T15:40:18 IST" name="repayLoan" finished-at="2022-01-24T15:40:26 IST" duration-ms="8440" status="PASS">
+    <test started-at="2022-01-28T11:14:04 IST" name="Default test" finished-at="2022-01-28T11:14:04 IST" duration-ms="73">
+      <class name="Testng_Advance.TC_loan_009">
+        <test-method is-config="true" signature="modifyLoan1()[pri:0, instance:Testng_Advance.TC_loan_009@29d89d5d]" started-at="2022-01-28T11:14:04 IST" name="modifyLoan1" finished-at="2022-01-28T11:14:04 IST" duration-ms="12" status="PASS">
           <reporter-output>
+            <line>
+              <![CDATA[from before suit]]>
+            </line>
           </reporter-output>
-        </test-method> <!-- repayLoan -->
-      </class> <!-- testng_basics.TC_Loan_003 -->
-      <class name="testng_basics.TC_Loan_004">
-        <test-method signature="deleteLoan()[pri:0, instance:testng_basics.TC_Loan_004@41e1e210]" started-at="2022-01-24T15:40:26 IST" name="deleteLoan" finished-at="2022-01-24T15:40:34 IST" duration-ms="8130" status="PASS">
+        </test-method> <!-- modifyLoan1 -->
+        <test-method is-config="true" signature="modifyLoan2()[pri:0, instance:Testng_Advance.TC_loan_009@29d89d5d]" started-at="2022-01-28T11:14:04 IST" name="modifyLoan2" finished-at="2022-01-28T11:14:04 IST" duration-ms="1" status="PASS">
           <reporter-output>
+            <line>
+              <![CDATA[from  before test]]>
+            </line>
           </reporter-output>
-        </test-method> <!-- deleteLoan -->
-      </class> <!-- testng_basics.TC_Loan_004 -->
-    </test> <!-- Test -->
-  </suite> <!-- Suite -->
+        </test-method> <!-- modifyLoan2 -->
+        <test-method is-config="true" signature="modifyLoan3()[pri:0, instance:Testng_Advance.TC_loan_009@29d89d5d]" started-at="2022-01-28T11:14:04 IST" name="modifyLoan3" finished-at="2022-01-28T11:14:04 IST" duration-ms="0" status="PASS">
+          <reporter-output>
+            <line>
+              <![CDATA[from before classe]]>
+            </line>
+          </reporter-output>
+        </test-method> <!-- modifyLoan3 -->
+        <test-method is-config="true" signature="modifyLoan4()[pri:0, instance:Testng_Advance.TC_loan_009@29d89d5d]" started-at="2022-01-28T11:14:04 IST" name="modifyLoan4" finished-at="2022-01-28T11:14:04 IST" duration-ms="0" status="PASS">
+          <reporter-output>
+            <line>
+              <![CDATA[from before method]]>
+            </line>
+          </reporter-output>
+        </test-method> <!-- modifyLoan4 -->
+        <test-method signature="modifyLoan()[pri:0, instance:Testng_Advance.TC_loan_009@29d89d5d]" started-at="2022-01-28T11:14:04 IST" name="modifyLoan" finished-at="2022-01-28T11:14:04 IST" duration-ms="8" status="PASS">
+          <reporter-output>
+            <line>
+              <![CDATA[for modify test case]]>
+            </line>
+          </reporter-output>
+        </test-method> <!-- modifyLoan -->
+        <test-method is-config="true" signature="modifyLoan5()[pri:0, instance:Testng_Advance.TC_loan_009@29d89d5d]" started-at="2022-01-28T11:14:04 IST" name="modifyLoan5" finished-at="2022-01-28T11:14:04 IST" duration-ms="1" status="PASS">
+          <reporter-output>
+            <line>
+              <![CDATA[from after method]]>
+            </line>
+          </reporter-output>
+        </test-method> <!-- modifyLoan5 -->
+        <test-method is-config="true" signature="modifyLoan6()[pri:0, instance:Testng_Advance.TC_loan_009@29d89d5d]" started-at="2022-01-28T11:14:04 IST" name="modifyLoan6" finished-at="2022-01-28T11:14:04 IST" duration-ms="0" status="PASS">
+          <reporter-output>
+            <line>
+              <![CDATA[from ater class]]>
+            </line>
+          </reporter-output>
+        </test-method> <!-- modifyLoan6 -->
+        <test-method is-config="true" signature="modifyLoan7()[pri:0, instance:Testng_Advance.TC_loan_009@29d89d5d]" started-at="2022-01-28T11:14:04 IST" name="modifyLoan7" finished-at="2022-01-28T11:14:04 IST" duration-ms="1" status="PASS">
+          <reporter-output>
+            <line>
+              <![CDATA[from ater test]]>
+            </line>
+          </reporter-output>
+        </test-method> <!-- modifyLoan7 -->
+        <test-method is-config="true" signature="modifyLoan8()[pri:0, instance:Testng_Advance.TC_loan_009@29d89d5d]" started-at="2022-01-28T11:14:04 IST" name="modifyLoan8" finished-at="2022-01-28T11:14:04 IST" duration-ms="0" status="PASS">
+          <reporter-output>
+            <line>
+              <![CDATA[from ater suit]]>
+            </line>
+          </reporter-output>
+        </test-method> <!-- modifyLoan8 -->
+      </class> <!-- Testng_Advance.TC_loan_009 -->
+    </test> <!-- Default test -->
+  </suite> <!-- Default suite -->
 </testng-results>

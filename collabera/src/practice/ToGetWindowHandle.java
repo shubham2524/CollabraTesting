@@ -20,7 +20,9 @@ public class ToGetWindowHandle {
 		System.out.println(windowid);
 		
 		Set<String> allwindowid = driver.getWindowHandles();
-		System.out.println(allwindowid);
+		for (String allwindowsids : allwindowid) {
+			
+		}
 		
 		
 
